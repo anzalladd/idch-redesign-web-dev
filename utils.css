@@ -1,0 +1,92 @@
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.container {
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-regular {
+    font-weight: 400;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.color-white {
+    color: white;
+}
+
+.lh-150-per {
+    line-height: 150%;
+}
+
+@media only screen and (max-width:1439px) {
+    .container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width:1048px) {
+    .container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
