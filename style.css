@@ -417,6 +417,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    width: 100%;
 }
 
 .list__feature__detail__text {

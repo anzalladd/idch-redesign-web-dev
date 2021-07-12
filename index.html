@@ -285,16 +285,16 @@
         <div class="container">
             <div class="list__feature">
                 <div class="list__feature__tabs">
-                    <div class="list__feature__tabs__tab active__tab">
+                    <div class="list__feature__tabs__tab active__tab" onclick="onCLickListFeature(this, 0)">
                         <h4>Informasi</h4>
                     </div>
-                    <div class="list__feature__tabs__tab">
+                    <div class="list__feature__tabs__tab" onclick="onCLickListFeature(this, 1)">
                         <h4>Fitur - Fitur</h4>
                     </div>
-                    <div class="list__feature__tabs__tab">
+                    <div class="list__feature__tabs__tab" onclick="onCLickListFeature(this, 2)">
                         <h4>Perbandingan</h4>
                     </div>
-                    <div class="list__feature__tabs__tab">
+                    <div class="list__feature__tabs__tab" onclick="onCLickListFeature(this, 3)">
                         <h4>Tambahan</h4>
                     </div>
                 </div>
@@ -396,7 +396,7 @@
             <div class="faq__list">
                 <div class="faq__list__left">
                     <h2>FAQ</h2>
-                    <div class="faq__list__left__tab active--tab">
+                    <div class="faq__list__left__tab active--tab" onclick="onClickFaqTab(this, 0)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -404,7 +404,7 @@
                         </svg>
                         <h4>Apa itu Server VPS (Virtual Private Server)?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 1)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -412,7 +412,7 @@
                         </svg>
                         <h4>Apa Keuntungan Menggunakan Server VPS ?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 2)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -420,7 +420,7 @@
                         </svg>
                         <h4>Apa Fasilitas atau Fitur yang Diberikan di VPS ?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 3)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -429,7 +429,7 @@
                         <h4>Siapa yang Cocok Menggunakan Layanan
                             Server VPS ?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 4)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -438,7 +438,7 @@
                         <h4>Bagaimana Cara Upgrade Server VPS di
                             IDcloudhost ?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 5)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -446,7 +446,7 @@
                         </svg>
                         <h4>Bagaimana Cara Pindah VPS ke IDcloudhost ?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 6)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -455,7 +455,7 @@
                         <h4>Bagaimana Jika Saya Membutuhkan Server
                             VPS Custom ?</h4>
                     </div>
-                    <div class="faq__list__left__tab">
+                    <div class="faq__list__left__tab" onclick="onClickFaqTab(this, 7)">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4 2.94727H20C21.1 2.94727 22 3.84727 22 4.94727V22.9473L18 18.9473H4C2.9 18.9473 2 18.0473 2 16.9473V4.94727C2 3.84727 2.9 2.94727 4 2.94727ZM12 11.9473C12.55 11.9473 13 11.4973 13 10.9473V6.94727C13 6.39727 12.55 5.94727 12 5.94727C11.45 5.94727 11 6.39727 11 6.94727V10.9473C11 11.4973 11.45 11.9473 12 11.9473ZM11 15.9473H13V13.9473H11V15.9473Z"
@@ -466,19 +466,8 @@
                     </div>
                 </div>
                 <div class="faq__list__right">
-                    <h1>Apa itu Server VPS (Virtual Private Server ? )</h1>
-                    <p>
-                        Server VPS atau Virtual Private Server merupakan suatu sistem yang terbagi menjadi beberapa
-                        Virtual Machines. Sehingga hal ini memungkinkan pengguna untuk dapat melakukan instal sistem
-                        operasi sendiri pada server VPS.
-                        <br />
-                        <br />
-                        Hal ini ibarat kamu mempunyai ruangan sendiri sehingga kamu dapat dengan bebas melakukan
-                        konfigurasi dan hal lain pada server VPS kamu.
-                        <br />
-                        <br />
-                        Informasi Selengkapnya : Panduan Memilih Server VPS dari IDcloudhost
-                    </p>
+                    <h1 id="faq-content-header"></h1>
+                    <p id="faq-content-text"></p>
                 </div>
             </div>
         </div>
@@ -593,8 +582,9 @@
             </div>
         </div>
     </section>
-    <script src="./script.js">
-    </script>
+
 </body>
+<script src="./script.js">
+</script>
 
 </html>
