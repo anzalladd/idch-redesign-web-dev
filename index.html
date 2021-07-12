@@ -14,7 +14,69 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <div class="header__wave">
+            <svg width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="f1" x="0" y="0">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+                    </filter>
+                </defs>
+                <path filter="url(#f1)" d="
+          M0 67
+          C 273,183
+            822,-40
+            1920.00,106 
+          
+          V 600
+          H 0
+          V 67
+          Z">
+                    <animate repeatCount="indefinite" attributeName="d" dur="15s" attributeType="XML" values="
+            M0 77 
+            C 473,283
+              822,-40
+              1920,116 
+            
+            V 600
+            H 0 
+            V 67 
+            Z; 
+
+            M0 77 
+            C 473,-40
+              1222,283
+              1920,136 
+            
+            V 600
+            H 0 
+            V 67 
+            Z; 
+
+            M0 77 
+            C 973,260
+              1722,-53
+              1920,120 
+            
+            V 600
+            H 0 
+            V 67 
+            Z; 
+
+            M0 77 
+            C 473,283
+              822,-40
+              1920, -40
+            
+            V 600
+            H 0 
+            V 67 
+            Z
+            ">
+                    </animate>
+                </path>
+            </svg>
+        </div>
         <nav class="navbar">
             <div class="navbar__logo">
                 <img src="./assets/logo.svg" alt="logo" />
